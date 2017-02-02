@@ -18,9 +18,9 @@
 
 /* Module context data */
 typedef struct {
-	char domain[128];
-	char name[128];
-	char secure[128];
+	char domain[256];
+	char name[256];
+	char secure[256];
 } ngx_http_auth_crowd_ctx_t;
 
 /* Crowd userinfo */
